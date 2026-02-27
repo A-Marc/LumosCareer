@@ -870,7 +870,7 @@ def career_step_detail_view(request, path_id, step_id):
 
 @login_required
 def therapy_landing_view(request):
-    therapist_url = os.getenv('THERAPIST_URL', '#')
+    therapist_url = os.getenv('THERAPY_SESSION_URL', '#')
     return render(request, 'scraper/therapy_landing.html', {'therapist_url': therapist_url})
 
 @login_required
