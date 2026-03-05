@@ -1,4 +1,4 @@
-# LumosCareer
+# LumosCareer marc
 
 LumosCareer is a web app for career guidance, interview preparation, and mental well-being, customized to help candidates navigate their professional journeys effectively.
 
